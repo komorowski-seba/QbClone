@@ -8,4 +8,10 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        
+    }
 }
